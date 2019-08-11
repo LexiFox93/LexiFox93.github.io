@@ -97,7 +97,14 @@ h3 {
   color:#2117a1
 }
 
-  h2, h4, h5, h6 {
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color:rgb(44, 9, 172)
+}
+
+  h2, h4, h5 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     color:#2117a1
@@ -417,6 +424,7 @@ h3 {
   
   h6, .h6 {
     font-size: 0.9375rem;
+    color:#140b69
   }
   
   .lead {
