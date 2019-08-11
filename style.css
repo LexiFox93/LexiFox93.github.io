@@ -524,7 +524,7 @@ h6 {
     background-color: #272B30;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
   }
   
@@ -4994,6 +4994,13 @@ h6 {
   }
   
   .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    
+  }
+
+  .card-img-mid {
     width: 100%;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
